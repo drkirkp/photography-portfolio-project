@@ -217,6 +217,43 @@ a:link {
   color: #97cba9;
 }
 
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav {
+  color: #fff;
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #97cba9;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -239,5 +276,9 @@ a:link {
   .about-section {
     text-align: center;
     padding: 0;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
