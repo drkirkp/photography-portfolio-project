@@ -50,10 +50,18 @@ body {
   margin: 0;
 }
 
-.about-section {
-  padding: 160px 20px;
-  display: grid;
+.btn-branding {
+  background: white;
+  font-family: var(--default-font-family);
+  border-radius: 50px;
+  color: black;
+  font-size: 12px;
+  line-height: 27px;
+  letter-spacing: 0.05cm;
+  padding: 12px 20px;
+  text-transform: uppercase;
 }
+
 .about-section h2 {
   font-size: 18px;
   color: #97cba9;
@@ -61,6 +69,8 @@ body {
   font-weight: 700;
   letter-spacing: 0.25cm;
   line-height: 2;
+  text-transform: uppercase;
+  justify-content: end;
 }
 
 .about-section h1 {
@@ -84,23 +94,11 @@ body {
   margin: 30px;
   width: 567px;
   height: 605.568px;
-  flex-shrink: 0;
 }
 
 .about-section-content img {
   width: 700px;
   height: 782px;
-  flex-shrink: 0;
-}
-.btn-branding {
-  background: white;
-  font-family: monospace;
-  border-radius: 50px;
-  color: black;
-  font-size: 12px;
-  line-height: 27px;
-  letter-spacing: 0.05cm;
-  padding: 12px 20px;
 }
 
 .row-1 {
@@ -282,6 +280,7 @@ footer .social-links a:hover {
   font-weight: 400;
   line-height: normal;
 }
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
