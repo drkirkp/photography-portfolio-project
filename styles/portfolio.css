@@ -165,6 +165,58 @@ body {
   margin: 160px 10px;
 }
 
+.contact body {
+  text-align: center;
+}
+.contact h1 {
+  color: white;
+  font-family: var(--heading-font-family);
+  font-size: 72px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 7.2px;
+  line-height: 2;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px 20px 100px 20px;
+}
+
+.contact h2 {
+  color: white;
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 0.1cm;
+  text-align: center;
+  line-height: 30px;
+}
+
+.contact h3 {
+  color: #97cba9;
+  font-family: var(--default-font-family);
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+
+.contact p {
+  color: white;
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: #97cba9;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
