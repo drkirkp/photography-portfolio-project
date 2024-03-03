@@ -151,10 +151,24 @@ body {
   justify-content: center;
 }
 
+.gallery h1 {
+  color: #fff;
+  text-align: center;
+  font-family: var(--heading-font-family);
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 7.2px;
+  text-transform: uppercase;
+  padding: 20px;
+  margin: 160px 10px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 2px;
   }
 
   h2 {
