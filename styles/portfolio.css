@@ -50,6 +50,48 @@ body {
   margin: 0;
 }
 
+.about-section {
+  padding: 160px 20px;
+  display: grid;
+}
+.about-section h2 {
+  font-size: 18px;
+  color: #97cba9;
+  font-family: var(--default-font-family);
+  font-weight: 700;
+  letter-spacing: 0.25cm;
+  line-height: 2;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  color: white;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  letter-spacing: 0.25cm;
+  line-height: 2;
+}
+
+.about-section p {
+  font-size: 18px;
+  color: white;
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  line-height: 2;
+}
+
+.about-section-content {
+  margin: 30px;
+  width: 567px;
+  height: 605.568px;
+  flex-shrink: 0;
+}
+
+.about-section-content img {
+  width: 700px;
+  height: 782px;
+  flex-shrink: 0;
+}
 .btn-branding {
   background: white;
   font-family: monospace;
@@ -126,5 +168,10 @@ body {
   .homepage-images {
     padding: 0;
     text-align: center;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
