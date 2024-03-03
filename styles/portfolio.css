@@ -254,6 +254,34 @@ nav li.active a {
   color: #97cba9;
 }
 
+footer {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 60px;
+}
+
+footer .social-links a {
+  margin: 60px;
+  color: white;
+  text-decoration: none;
+}
+
+footer .social-links a:hover {
+  color: #97cba9;
+}
+
+.copywrite {
+  text-align: end;
+  color: #fff;
+  text-align: right;
+  font-family: var(--default-font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
